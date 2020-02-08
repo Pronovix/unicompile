@@ -1,0 +1,19 @@
+node_modules
+.vscode
+vendor
+.sass-cache
+
+# Self
+package-lock.json
+.unicompilerc.json
+dist
+
+# Babel
+.babelrc
+babel.config.json
+
+# Drupal
+drupal
+themes
+modules
+profiles

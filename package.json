@@ -1,0 +1,54 @@
+{
+  "name": "unicompile",
+  "version": "2.2.1",
+  "description": "One compiler to compile it all. A tool primarily created for Drupal themes and modules to compile SASS and ES6+ Javascript into ES5 based on a configuration file.",
+  "bin": {
+    "unicompile": "./bin/unicompile.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.2",
+    "autoprefixer": "^9.7.3",
+    "chalk": "^3.0.0",
+    "chokidar": "^3.3.1",
+    "console-stamp": "^0.2.9",
+    "glob": "^7.1.6",
+    "glob-promise": "^3.4.0",
+    "mkdirp": "^0.5.1",
+    "node-sass": "^4.13.0",
+    "node-sass-promise": "^1.0.0",
+    "path": "^0.12.7",
+    "postcss": "^7.0.26",
+    "postcss-custom-properties": "^9.0.2",
+    "rimraf": "^3.0.0",
+    "strip-comments": "^2.0.1",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "prettier": "^1.19.1"
+  },
+  "engines": {
+    "node": ">=11.14.0"
+  },
+  "license": "GPL-2.0-or-later",
+  "author": {
+    "name": "Gabor Janos Kurucz",
+    "email": "gabor.kurucz@pronovix.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pronovix/unicompile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pronovix/unicompile/issues"
+  },
+  "homepage": "https://github.com/Pronovix/unicompile#readme"
+}
