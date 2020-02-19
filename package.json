@@ -1,6 +1,6 @@
 {
   "name": "unicompile",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "One compiler to compile it all. A tool primarily created for Drupal themes and modules to compile SASS and ES6+ Javascript into ES5 based on a configuration file.",
   "bin": {
     "unicompile": "./bin/unicompile.js"
